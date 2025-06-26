@@ -26,7 +26,7 @@ import { RegisterRequest, UserRole } from '../../../core/models/user.model';
     MatSnackBarModule
   ],
   templateUrl: './register.html',
-  styleUrl: './register.scss'
+  styleUrls: ['./register.scss']
 })
 export class RegisterComponent {
   registerForm: FormGroup;
