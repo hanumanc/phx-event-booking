@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+  <span>Event Booking Platform</span>
+  
+  <span class="spacer"></span>
+  
+  <div *ngIf="authService.currentUserValue; else authButtons">
+    <span class="welcome-text">Welcome, {{authService.currentUserValue.firstName}}!</span>
+    <button mat-button (click)="logout()">Logout</button>
+  </div>
+  
+  <ng-template #authButtons>
+    <button mat-button routerLink="/auth/login">Login</button>
+    <button mat-raised-button routerLink="/auth/register">Register</button>
+  </ng-template>
+</mat-toolbar>
