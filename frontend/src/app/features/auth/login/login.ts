@@ -24,7 +24,7 @@ import { LoginRequest } from '../../../core/models/user.model';
     MatSnackBarModule
   ],
   templateUrl: './login.html',
-  styleUrl: './login.scss'
+  styleUrls: ['./login.scss']
 })
 export class LoginComponent {
   loginForm: FormGroup;
