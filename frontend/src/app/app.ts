@@ -13,7 +13,7 @@ import { FooterComponent } from './shared/layout/footer/footer';
     FooterComponent
   ],
   templateUrl: './app.html',
-  styleUrl: './app.scss'
+  styleUrls: ['./app.scss']
 })
 export class AppComponent {
   protected title = 'Event Booking Platform';
