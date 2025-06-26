@@ -22,3 +22,25 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Backend specific
+/backend/target/
+/backend/.mvn/wrapper/maven-wrapper.jar
+/backend/.mvn/wrapper/maven-wrapper.properties
+
+# Frontend specific
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.angular/
+/frontend/.vscode/
+/frontend/coverage/
+
+# IDE specific
+.idea/
+*.iml
+*.iws
+.vscode/
+.DS_Store
+
+# Docker
+*.log
